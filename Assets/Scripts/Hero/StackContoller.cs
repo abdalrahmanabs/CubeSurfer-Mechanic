@@ -6,15 +6,20 @@ public class StackContoller : MonoBehaviour
 {
     public List<GameObject> cubes = new List<GameObject>();
     GameObject LastCube;
+    Rigidbody rb;
     [SerializeField] private GameObject RemovedCubes;
     // Start is called before the first frame update
     void Start()
     {
+        rb=GetComponent<Rigidbody>();
         UpdateLastCubeObject();
     }
     private void UpdateLastCubeObject()
     {
         LastCube = cubes[cubes.Count - 1];
+        if(cubes.Count>0)
+         rb.useGravity=true;
+            
     }
     public void IncreaseCubeStack(GameObject collectedCube)
     {

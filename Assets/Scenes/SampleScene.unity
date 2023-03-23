@@ -539,7 +539,6 @@ GameObject:
   - component: {fileID: 121696749}
   - component: {fileID: 121696748}
   - component: {fileID: 121696747}
-  - component: {fileID: 121696746}
   - component: {fileID: 121696745}
   m_Layer: 0
   m_Name: CollectableCube (1)
@@ -560,22 +559,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf78af2c72b67c04ab8362955574d076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &121696746
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121696744}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &121696747
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -697,7 +680,7 @@ Transform:
   - {fileID: 1377415443}
   - {fileID: 1665791735}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &195561897
 GameObject:
@@ -711,7 +694,6 @@ GameObject:
   - component: {fileID: 195561902}
   - component: {fileID: 195561901}
   - component: {fileID: 195561900}
-  - component: {fileID: 195561899}
   - component: {fileID: 195561898}
   m_Layer: 0
   m_Name: CollectableCube (9)
@@ -732,22 +714,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf78af2c72b67c04ab8362955574d076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &195561899
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 195561897}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &195561900
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -838,7 +804,6 @@ GameObject:
   - component: {fileID: 289062449}
   - component: {fileID: 289062448}
   - component: {fileID: 289062447}
-  - component: {fileID: 289062446}
   - component: {fileID: 289062445}
   m_Layer: 0
   m_Name: CollectableCube (7)
@@ -859,22 +824,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf78af2c72b67c04ab8362955574d076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &289062446
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 289062444}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &289062447
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1096,7 +1045,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &406520193
 GameObject:
@@ -1207,7 +1156,6 @@ GameObject:
   - component: {fileID: 455239760}
   - component: {fileID: 455239759}
   - component: {fileID: 455239758}
-  - component: {fileID: 455239757}
   - component: {fileID: 455239756}
   m_Layer: 0
   m_Name: CollectableCube (10)
@@ -1243,22 +1191,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf78af2c72b67c04ab8362955574d076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &455239757
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 455239754}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &455239758
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1334,7 +1266,6 @@ GameObject:
   - component: {fileID: 462265338}
   - component: {fileID: 462265337}
   - component: {fileID: 462265336}
-  - component: {fileID: 462265335}
   - component: {fileID: 462265334}
   m_Layer: 0
   m_Name: CollectableCube (5)
@@ -1355,22 +1286,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf78af2c72b67c04ab8362955574d076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &462265335
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 462265333}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &462265336
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1481,7 +1396,7 @@ Transform:
   - {fileID: 705507995}
   - {fileID: 406520194}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &656368682
 GameObject:
@@ -1997,7 +1912,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &772279334
 GameObject:
@@ -2239,7 +2154,6 @@ GameObject:
   - component: {fileID: 812597521}
   - component: {fileID: 812597520}
   - component: {fileID: 812597519}
-  - component: {fileID: 812597518}
   - component: {fileID: 812597517}
   m_Layer: 0
   m_Name: CollectableCube (11)
@@ -2275,22 +2189,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf78af2c72b67c04ab8362955574d076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &812597518
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 812597515}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &812597519
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2495,11 +2393,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1346587883}
-  - {fileID: 963194228}
+  m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &942977918
 GameObject:
@@ -2627,7 +2523,6 @@ GameObject:
   - component: {fileID: 958885863}
   - component: {fileID: 958885862}
   - component: {fileID: 958885861}
-  - component: {fileID: 958885860}
   - component: {fileID: 958885859}
   m_Layer: 0
   m_Name: CollectableCube (3)
@@ -2648,22 +2543,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf78af2c72b67c04ab8362955574d076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &958885860
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 958885858}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &958885861
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2753,7 +2632,6 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
-  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2819,48 +2697,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.08622774, y: -0.2324119, z: 0.02076649, w: 0.9685651}
-  m_LocalPosition: {x: 7.1581182, y: 6.2, z: -5.1}
+  m_LocalRotation: {x: 0.08967082, y: -0.51766694, z: 0.054847434, w: 0.84910065}
+  m_LocalPosition: {x: 34.42796, y: 10.250867, z: -1.2969388}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 905640274}
+  m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 5, y: -20, z: 0}
---- !u!114 &963194229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShowDebugText: 0
-  m_ShowCameraFrustum: 1
-  m_IgnoreTimeScale: 0
-  m_WorldUpOverride: {fileID: 0}
-  m_UpdateMethod: 2
-  m_BlendUpdateMethod: 1
-  m_DefaultBlend:
-    m_Style: 1
-    m_Time: 2
-    m_CustomCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  m_CustomBlends: {fileID: 0}
-  m_CameraCutEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_CameraActivatedEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &1020694904
 GameObject:
   m_ObjectHideFlags: 0
@@ -3215,7 +3059,6 @@ GameObject:
   - component: {fileID: 1344480542}
   - component: {fileID: 1344480541}
   - component: {fileID: 1344480540}
-  - component: {fileID: 1344480539}
   - component: {fileID: 1344480538}
   m_Layer: 0
   m_Name: CollectableCube (6)
@@ -3236,22 +3079,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf78af2c72b67c04ab8362955574d076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &1344480539
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1344480537}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1344480540
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3346,7 +3173,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1346587882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3365,7 +3192,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
+  m_LookAt: {fileID: 543450651627893989}
   m_Follow: {fileID: 543450651627893989}
   m_Lens:
     FieldOfView: 64.76
@@ -3392,13 +3219,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1346587881}
-  m_LocalRotation: {x: 0.08622774, y: -0.2324119, z: 0.02076649, w: 0.9685651}
+  m_LocalRotation: {x: 0.19354714, y: -0.28545538, z: 0.058976963, w: 0.9367906}
   m_LocalPosition: {x: 7.1581182, y: 6.2, z: -5.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1999999027}
-  m_Father: {fileID: 905640274}
+  m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1377415442
@@ -3413,7 +3240,6 @@ GameObject:
   - component: {fileID: 1377415448}
   - component: {fileID: 1377415447}
   - component: {fileID: 1377415446}
-  - component: {fileID: 1377415445}
   - component: {fileID: 1377415444}
   m_Layer: 0
   m_Name: CollectableCube (12)
@@ -3449,22 +3275,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf78af2c72b67c04ab8362955574d076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &1377415445
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1377415442}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1377415446
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3540,7 +3350,6 @@ GameObject:
   - component: {fileID: 1563582944}
   - component: {fileID: 1563582943}
   - component: {fileID: 1563582942}
-  - component: {fileID: 1563582941}
   - component: {fileID: 1563582946}
   m_Layer: 0
   m_Name: CollectableCube
@@ -3549,22 +3358,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &1563582941
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563582938}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1563582942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4009,7 +3802,6 @@ GameObject:
   - component: {fileID: 1665791740}
   - component: {fileID: 1665791739}
   - component: {fileID: 1665791738}
-  - component: {fileID: 1665791737}
   - component: {fileID: 1665791736}
   m_Layer: 0
   m_Name: CollectableCube (13)
@@ -4045,22 +3837,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf78af2c72b67c04ab8362955574d076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &1665791737
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1665791734}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1665791738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4478,7 +4254,6 @@ GameObject:
   - component: {fileID: 1894092343}
   - component: {fileID: 1894092342}
   - component: {fileID: 1894092341}
-  - component: {fileID: 1894092340}
   - component: {fileID: 1894092339}
   m_Layer: 0
   m_Name: CollectableCube (2)
@@ -4499,22 +4274,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf78af2c72b67c04ab8362955574d076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &1894092340
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1894092338}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1894092341
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4700,7 +4459,6 @@ GameObject:
   - component: {fileID: 2020857380}
   - component: {fileID: 2020857379}
   - component: {fileID: 2020857378}
-  - component: {fileID: 2020857377}
   - component: {fileID: 2020857376}
   m_Layer: 0
   m_Name: CollectableCube (8)
@@ -4721,22 +4479,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf78af2c72b67c04ab8362955574d076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &2020857377
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2020857375}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &2020857378
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4941,7 +4683,6 @@ GameObject:
   - component: {fileID: 2099799482}
   - component: {fileID: 2099799481}
   - component: {fileID: 2099799480}
-  - component: {fileID: 2099799479}
   - component: {fileID: 2099799478}
   m_Layer: 0
   m_Name: CollectableCube (4)
@@ -4962,22 +4703,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf78af2c72b67c04ab8362955574d076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &2099799479
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2099799477}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &2099799480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5166,7 +4891,7 @@ Transform:
   m_Children:
   - {fileID: 543450651947437428}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!4 &543450651947437428
 Transform:
@@ -5298,7 +5023,6 @@ GameObject:
   - component: {fileID: 3469287837691755330}
   - component: {fileID: 3469287837691755332}
   - component: {fileID: 3469287837691755333}
-  - component: {fileID: 3469287837691755334}
   m_Layer: 0
   m_Name: PlayerCube
   m_TagString: Cube
@@ -6019,9 +5743,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147905490527}
   serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 32.22
-  m_AngularDrag: 0
+  m_Mass: 10
+  m_Drag: 0
+  m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -6057,18 +5781,6 @@ MonoBehaviour:
   cubes:
   - {fileID: 919132147905490527}
   RemovedCubes: {fileID: 346424955}
---- !u!114 &3469287837691755334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132147905490527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf78af2c72b67c04ab8362955574d076, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &3558328719752084516
 Transform:
   m_ObjectHideFlags: 0
