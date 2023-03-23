@@ -9,3 +9,5 @@ The main script for stacking is called `StackController`, which handles the logi
 ## Swerve Controller Scripts 🕹️
 
 Additionally, the project includes `Swerve Controller Scripts`, which are used to control the movement of the player character.
+
+![Cube Surfer game image](https://lagged.com/thumbs/240x240
